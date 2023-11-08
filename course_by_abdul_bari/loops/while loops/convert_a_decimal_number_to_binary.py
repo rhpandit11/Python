@@ -6,11 +6,11 @@ while n > 0:
     n = n // 2
     bin = bin * 10 + r
 
-rev = 0
+brev = 0
 
 while bin > 0:
     r = bin % 10
     bin = bin // 10
-    rev = rev * 10 + r
+    brev = brev * 10 + r
 
-print(rev)
+print(brev)
