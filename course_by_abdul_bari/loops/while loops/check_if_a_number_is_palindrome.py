@@ -7,6 +7,6 @@ while n > 0:
     n = n // 10
     rev = rev * 10 + r
 if m == rev: #comparing the number to check
-        print("Palindrome")
+        print("Number is a Palindrome")
 else:
-      print("Not Palindrome")
+      print("Number is not a Palindrome")
