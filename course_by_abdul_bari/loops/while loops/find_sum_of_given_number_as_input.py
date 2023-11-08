@@ -1,4 +1,4 @@
-num_of_numbers = int(input("Enter a number of numbers: ")) #Enter the number how many times you want to add the numbers
+num_of_numbers = int(input("Enter a number of numbers: ")) #how many numbers you want to add together
 sum = 0
 count = 0
 
