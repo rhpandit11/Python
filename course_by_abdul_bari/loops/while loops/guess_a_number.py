@@ -1,6 +1,6 @@
-import random
+import random  # you have to import a module
 
-n = random.randint(1,10)
+n = random.randint(1,10)  # in random we take randint which will have random numbers
 guess = 0
 
 while guess != n:
