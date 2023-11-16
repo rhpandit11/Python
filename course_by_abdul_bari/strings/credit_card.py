@@ -1,9 +1,9 @@
-cardno = input('Enter  card no')
+cardno = input('Enter Card No.')
 
-lastDigits = cardno[15::]
+lastDigit = cardno[15::]
 
 four = '*' * 4 + ' '
 
-dispno = four + 3 + lastDigits
+dispno = four * 3 + lastDigit
 
 print(dispno)
